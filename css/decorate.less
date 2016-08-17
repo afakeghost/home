@@ -1,0 +1,147 @@
+@color:#f8f8f8;
+html,body{
+	width: 10.0rem;
+	// border:1px pink solid;
+}
+img{
+	display: block;
+	width: 100%;
+}
+.swiper-container{
+	width:10.0rem;
+	height: 4.21875rem;
+	.swiper-pagination{
+		.swiper-pagination-bullet{
+			width: 0.46875rem;
+			height: 0.46875rem;
+		}
+	}
+
+}
+.function{
+	li{
+		float: left;
+		width:2.5rem;
+		text-align: center;
+		a{
+			width:100%;
+			display:inline-block;
+			color: black;
+			font-size:0.3325rem;
+			padding: 0.3125rem 0;
+			border:1px @color solid;
+			&:before{
+                content: "";
+                display:block;
+                margin: 0 auto 0.15625rem;
+                width: 1.155rem;
+                height: 1.155rem;
+                background: url(../img/sign.png) 0px -0.046875rem no-repeat;
+                background-size: 3.125rem 18.75rem;
+			}
+
+		}
+	}
+            li:nth-child(2) a:before{
+				 background-position: 0px -1.5625rem;
+			}
+            li:nth-child(3) a:before{
+				 background-position: 0px -3.046875rem;
+			}
+			li:nth-child(4) a:before{
+				 background-position: 0px -4.5rem;
+			}		
+			li:nth-child(5) a:before{
+				 background-position: 0px -6.171875rem;
+			}
+			li:nth-child(6) a:before{
+				 background-position: 0px -7.828125rem;
+			}
+			li:nth-child(7) a:before{
+				 background-position: 0px -9.390625rem;
+			}
+			li:nth-child(8) a:before{
+				 background-position: 0px -10.828125rem;
+			}
+}
+section{
+	background-color:@color;
+	p{
+		font-size:0.46875rem;
+		font-weight: bolder;
+		height: 1.203125rem;
+		line-height:1.203125rem;
+		padding-left:0.4125rem;
+	}
+	.effect{
+	    background-color:white;
+		padding:0.3125rem 0.3125rem 0.46875rem 0.3125rem;
+		img:nth-child(1){
+            height: 6.5625rem;
+            width: 9.375rem;
+		}
+		img:nth-child(2){
+            width: 4.53125rem;
+            height: 3.125rem;
+            float:left;
+            margin-right: 0.3125rem;
+            margin-top:0.15625rem;
+		}
+		img:nth-child(3){
+            width: 4.53125rem;
+            height: 3.125rem;
+            float:left;
+            margin-top:0.15625rem;
+		}
+		// img:after{
+		// 	display:block;
+		// 	content:"";
+		// 	width: 0.859375rem;
+		// 	height: 0.515625rem;
+		// 	background: url(../img/sign.png) 0px -0.046875rem no-repeat;
+        //         background-size: 3.125rem 18.75rem;
+		// }
+	     ul{
+	     	width: 9.375rem;
+	     }
+	     .form{
+            border-bottom: 1px @color dashed;
+            margin-top:0.15625rem;
+	     }
+	     .form,.type{
+	     	padding:0.15625rem 0px 0.15625rem 0.0rem;
+	     	li{
+	     		float:left;
+	     		a{
+	     			display:block;
+	     			width: 1.640625rem;
+	     			height: 0.546875rem;
+	     			background-color:@color;
+	     			font-size:0.28125rem;
+	     			line-height:0.546875rem;
+	     			text-align:center;
+	     			color:black;
+	     			border-radius:0.109375rem;
+	     		}
+	     		&:not(:nth-child(1)){
+                    margin-left: 0.292969rem;
+	     		}
+	     		&:nth-child(1) a{
+	     			color:white;
+	     			background-color:#ffc508;
+	     			box-sizing: border-box;
+	     			border-right: 0.226562rem solid #ffc508;
+	     			border-left: 0.226562rem solid white;
+	     			// &:before{
+	     			// 	content:"";
+	     			// 	display:inline-block;
+	     			// 	background-color:#ffc508;
+	     			// 	width: 0.386562rem;
+	     			// 	height:  0.386562rem;
+	     			// 	transform:translate(-0.265625rem, 0.078125rem) rotate(45deg);
+	     			// }
+	     		}
+	     	}
+	     }
+    }
+}

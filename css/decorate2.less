@@ -1,0 +1,616 @@
+@color:#e8e8e8;
+@color2:#f8f8f8;
+html,body{
+	max-width: 640px;
+	margin: 0px auto;
+	background-color:@color2;   
+}
+img{
+	display: block;
+	width: 100%;
+}
+.swiper-slide{
+	a{
+		img{
+			// height: 185px;
+		}
+	}
+}
+header{
+	width:100%;
+    .function{
+         	li{
+         		float: left;
+         		width: 25%;
+         		box-sizing: border-box;
+         		border:1px solid @color;
+         		a{
+         			display:block;
+         			font-size:10px;
+         			text-align:center;
+         			color:black;
+         			margin-bottom:9%;
+         			&:before{
+         				display:block;
+         				content:"";
+         				width: 36px;
+         				height: 36px;
+         				background: url(../img/sign.png) 0px -11px no-repeat;
+         			    background-size:100px 750px;
+         			    margin:9% auto 9%;
+         			}
+         		}
+         	}
+         	 li:nth-child(2) a:before{
+				 background-position: 0px -59px;
+			}
+            li:nth-child(3) a:before{
+				 background-position: 0px -106px;
+			}
+			li:nth-child(4) a:before{
+				 background-position: 0px -154px;
+			}		
+			li:nth-child(5) a:before{
+				 background-position: 0px -206px;
+			}
+			li:nth-child(6) a:before{
+				 background-position: 0px -258px;
+			}
+			li:nth-child(7) a:before{
+				 background-position: 0px -308px;
+			}
+			li:nth-child(8) a:before{
+				 background-position: 0px -354px;
+			}
+         }
+}
+section{
+	background-color:@color2;
+	width: 100%;   
+	&>p{
+		font-size:16px;
+		font-weight:bold;
+		text-indent: 2em;
+		line-height:200%;
+		} 
+	.effect{
+		padding:5% 3%;
+		background-color:white;
+		
+		.effect-picture{
+			// margin:0 auto;
+            // width:93.75%;
+	         a{
+	         	display:inline-block;
+	         	// &:after{
+	         	//     	content:"1";
+	         	//     	display:block;
+	         	//     	width: 28px;
+	         	//     	height: 16px;
+	         	//     	background-color:white;
+	         	//     	background: url(../img/sign.png) -1px -398px no-repeat;
+         		// 	    background-size:100px 750px;
+         		// 	    border-radius:10px;
+         		// 	    font-size: 9px;
+	         	//     	line-height:16px;
+	         	//     	text-indent:20px;
+
+	         	//     }
+	         }
+		    div{
+		    	a{  
+		    		float:left;
+		         	display:inline-block;
+		         	&:nth-child(1){
+		         		width: 47%;
+		         		margin-top:3%;
+	         	    }
+		         	&:nth-child(2){
+		         		width: 47%;
+		         		margin-top:3%;
+		         		margin-left:6%;
+	         	    }
+	         	    // &:after{
+	         	    // 	content:"1";
+	         	    // 	display:block;
+	         	    // 	font-size: 9px;
+	         	    // 	line-height:16px;
+	         	    // 	width: 28px;
+	         	    // 	height: 16px;
+	         	    // 	background-color:white;
+	         	    // 	background: url(../img/sign.png) -1px -398px no-repeat;
+         			   //  background-size:100px 750px;
+         			   //  border-radius:10px;
+         			   //  text-indent:20px;
+
+	         	    // }
+	            }
+		    }
+		}
+	.form,.type{
+		padding:5% 0 5%;
+		// box-sizing:border-box;
+
+		li{
+			float:left;
+			width:18.1%;
+			a{
+				display:block;
+				text-align:center;
+				font-size:10px;
+				line-height:200%;
+				color:black;
+				background-color:@color;
+			}
+			&:not(:nth-child(1)){
+				margin-left:2.375%;
+			}
+			&:nth-child(1) a{
+				color:white;
+				background-color:#ffc508;
+			}
+		}
+	}
+	.form{
+		border-bottom:1px blue dashed;
+		// margin-bottom: 3%;
+	    }
+	}
+	.refresh{
+		border:2px @color solid;
+		border-radius:10px;
+		width: 100%;
+		li{ 
+			width:50%;
+			box-sizing:border-box;
+			float:left;
+            a{  
+            	padding:2% 0;
+            	display:block;
+            	font-size:12px;
+                // width: 50%;
+                text-align:center;
+                vertical-align: middle;
+            }
+            &:nth-child(1){
+            	border-right:2px @color solid;
+            }
+            &:nth-child(1) a:before{
+            	content:"";
+            	display:inline-block;
+            	width: 18px;
+            	height: 16px;
+            	background: url(../img/sign.png) -3px -432px no-repeat;
+         	    background-size:100px 750px;
+                vertical-align: middle;
+            }
+            &:nth-child(2) a:after{
+            	content:"";
+            	display:inline-block;
+            	width:7px;
+            	height: 7px;
+            	border-right: 2px solid #fa4f3f;
+            	border-bottom: 2px solid #fa4f3f;
+            	transform:translate(10px,0px) rotate(-45deg);
+            }
+		}
+	}
+	.count{
+		width: 93.75%;
+		margin:5% auto;
+		border-radius:10px;
+		background-color:white;
+		p{
+			font-size:14px;
+			height: 50px;
+			// font-weight:bold;
+			// text-indent: 2em;
+			line-height:50px;
+			text-align:center;
+			background: url(../img/sign.png) 33px -678px no-repeat;
+     	    background-size:100px 750px;
+			}
+			form{
+				width: 93.66%;
+				margin:0px auto 0px;
+				input:nth-child(1){
+					float:left;
+					outline: none;
+					border-radius:10%;
+					// border:none;
+					border:2px @color solid;
+					width: 48%;
+					box-sizing:border-box;
+					height: 30px;
+					font-size:12px;
+					line-height:30px;
+					padding-left: 5%;
+					position: relative;
+					background: url(../img/sign.png) right -657px no-repeat;
+     	            background-size:100px 750px;
+				}
+				select{	
+					float:left;
+					border-radius:10%;
+					width:48%;
+					line-height:30px;
+					height: 30px;
+					padding-left: 5%;
+					border-color: @color;
+					background: url(../img/sign.png) right -721px no-repeat;
+     	            background-size:100px 750px;
+     	            // option{
+     	            // 	width:100%;
+     	            // 	display:block;
+     	            // }
+	            }
+	            select:nth-child(2){
+                     margin-left:4%;
+	            }
+	            select:nth-child(3){
+                     width: 100%;
+                     margin-top:5%;
+	            }
+	            select:nth-child(4){
+                      width: 100%;
+                       margin-top:5%;
+	            }
+	            input:nth-child(5){
+	            	  margin:5% 0px;
+	            	  padding:3% 0px;
+	            	  width: 100%;
+	            	  font-size:16px;
+	            	  box-sizing:border-box;
+	            	  color:white;
+	            	  background-color:#fa4e3e;
+	            	  border:1px #fa4e3e solid;
+	            	  border-radius:10px;
+	            }
+				
+			}
+		}
+		&>p:nth-of-type(2){
+			border-top: 1px solid #ededed;
+		}
+		.strategy{
+			padding:2% 3.125%;
+			background-color:white;
+			border-bottom: 1px solid #ededed;
+			div:nth-child(1){
+				padding:3% 0px;
+				border-bottom: 1px solid #ededed;
+				a{  
+					float:left;
+					display:inline-block;
+					width: 48%;
+					border:1px @color solid;
+					border-radius:5px;
+					box-sizing:border-box;
+                    color:black;
+                    text-align:center;
+                    font-size:16px;
+                    padding:3% 0px;
+                    vertical-align: middle;
+                    &:nth-child(2n){
+                    	margin-left:4%;
+                    }
+                    &:nth-child(n+3){
+                    	margin-top:4%;
+                    }
+                    &:before{
+                         content:"";
+		            	display:inline-block;
+		            	width: 18px;
+		            	height: 16px;
+		            	background: url(../img/sign.png) -5px -498px no-repeat;
+		         	    background-size:100px 750px;
+		                vertical-align: middle;
+                    }
+				}
+			}
+			&>div:nth-child(2){
+				
+				a{  
+					margin-top:2.5%;
+					margin-bottom:2.5%;
+					display:flex;
+					img{
+						width: 30%;
+						height: 25%;
+					}
+					div{
+						margin-left:3%;
+						p:nth-child(1){
+							font-size:16px;
+						    color:black;
+						    padding:3% 0px
+						}
+						p:nth-child(2){
+							font-size:16px;
+						    color:@color;
+						    padding:3% 0px
+						}
+					}
+				}
+			}
+		}
+		.around{
+			padding:3% 3.125%;
+			background-color:white;
+			border-bottom: 1px solid #ededed;
+			a{
+				display:inline-block;
+				width: 22.5%;
+				vertical-align: middle;
+				color:black;
+				font-size:14px;
+				text-align:center;
+				line-height:10px;
+				p{
+					margin:10px auto;
+				}
+				&:nth-child(1){
+					margin-left: 5%
+				}
+			}
+			span{
+				margin-left:3%;
+				margin-right: 3.2%;
+				display:inline-block;
+				width:15px;
+				height: 10px;
+				background-color:#ffb347;
+				vertical-align: middle;
+				&:after{
+					content:"";
+					vertical-align:middle;
+					border:10px #ffb347 solid;
+					display: inline-block;
+					border-color:  transparent transparent transparent #ffb347;
+					transform:translate(15px,-5px );
+				}
+			}
+		}
+		.question{
+			padding:3% 3.125%;
+			background-color:white;
+			form{
+				margin-bottom:4%;
+				border-radius:10px;
+				input:nth-child(1){
+                 width:70%;
+                 box-sizing: border-box;
+                 background-color:@color;
+                 height: 30px;
+                 line-height:30px;
+                 font-size:16px;
+                 padding-left:5%;
+                 border:1px #ececec solid;
+                 border-radius:10px 0 0 10px;
+
+				}
+				input:nth-child(2){
+                     width:30%;
+                     box-sizing: border-box;
+                     background-color:#fa4e3e;
+                     border:1px #fa4e3e solid;
+		             height: 30px;
+		             color:white;
+	                 line-height:30px;
+	                 font-size:16px;
+	                 text-align:center;
+	                 border-radius:0 10px 10px 0;
+				}
+		    }
+		    a:nth-last-child(2) li{
+		    	border-bottom:0px;
+		    }
+		    a{
+					li{
+						list-style-type: disc;
+						font-size:12px; 
+						color:black;
+						border-bottom: 1px solid #ededed;
+						p:nth-child(1){
+							margin-top:3%;
+						}
+						p:nth-child(2){
+							font-size:10px;
+							margin:1% 0px 2%;
+							color:#fa4e3e;
+							padding-left:2%;
+							&:after{
+
+							content:"装B秘籍";
+							display:inline-block;
+							color:@color;
+							font-size:10px;
+							float:right;
+							// width:40px;
+							// height: 20px;
+                            // margin-left:80%;
+   
+						    }
+					     }
+					}
+						
+				}
+			
+		}
+	
+}
+a{
+	color:black;
+}
+.new{
+	border-bottom: 1px solid #ededed;
+	border-top: 1px solid #ededed;
+	padding:3% 3.125%;
+	background-color:white;
+	ul{ 
+		margin-left:4%;
+		li{
+              list-style-type: disc;
+				font-size:12px; 
+				color:black;
+				margin-bottom:3%;
+				&:last-child{
+					margin-bottom:0;
+				}
+				&:after{
+					content:"01-01";
+					display:inline-block;
+					color:@color;
+					font-size:10px;
+					float:right;
+				}
+		}
+	}
+}
+.add{
+	border-bottom: 1px solid #ededed;
+	border-top: 1px solid #ededed;
+	background-color:white;
+	ul{
+		li{ 
+			float:left;
+			width: 33.333%;
+			box-sizing:border-box;
+			border:1px solid @color;
+			a{
+				text-align:center;
+				display:block;
+         		font-size:10px;
+         		margin-bottom:9%;
+         		&:before{
+         			display:block;
+     				content:"";
+     				width: 45px;
+     				height: 45px;
+     				background: url(../img/sign.png) -46px -223px no-repeat;
+     			    background-size:100px 750px;
+     			    margin:9% auto 9%;
+         		}
+			}
+			&:nth-child(2) a:before{
+				background-position: -46px -272px;
+			}
+			&:nth-child(3) a:before{
+				background-position: -46px -323px;
+			}
+			&:nth-child(4) a:before{
+				background-position: -46px -374px;
+			}
+			&:nth-child(5) a:before{
+				background-position: -46px -428px;
+			}
+			&:nth-child(6) a:before{
+				background-position: -46px -481px;
+			}
+		}
+	}
+}
+footer{
+	position:relative;
+	&>a:nth-child(2){
+		border: 1px solid #ededed;
+		width: 55%;
+		margin:0px auto;
+		padding: 2% 0px;
+		font-size:10px;
+		display:block;
+     	text-align:center;
+        border-radius:10px;
+        background-color:white;
+        border-bottom: 1px solid #ededed;
+        &:before{
+        	content:" ";
+     		display:inline-block;
+     		width: 15px;
+     		height: 15px;
+			background:white url(../img/sign.png) -64px -602px no-repeat;
+	     	background-size:100px 750px;
+        }
+     	&:after{
+     		content:" 110";
+     		text-align:left;
+     		display:inline-block;
+     		width: 40%;
+     	}
+	}
+	&>a:nth-child(4){
+		color:#5dc2f3;
+		font-size:8px;
+		text-align:center;
+		display:block;
+		width: 30%;
+		margin:3% auto;
+		vertical-align:middle;
+		&:before{
+			display:inline-block;
+			content:"";width: 17px;
+			height: 20px;
+			background:  url(../img/sign.png) -82px -694px no-repeat;
+		    background-size:100px 750px;
+		    vertical-align:middle;
+		}
+	}
+}
+.suggestion{ 
+	margin:5% auto 0;
+	width:93.75%;
+	a{  
+		// float:left;
+		display:inline-block;
+		border: 1px solid #ededed;
+		width:27%;
+		font-size:10px;
+		padding:2% 0;
+		text-align:center;
+		background-color:white;
+		border-radius:10px;
+		margin:5% auto;
+		vertical-align:middle;
+		position:relative;
+	}
+	a:not(:last-child){
+		margin-right:8%;
+		// &:after{
+		// 	content:"";
+		// 	border:2px black solid;
+		// 	display:inline-block;
+		// 	vertical-align:middle;
+		// 	position:absolute;
+		// 	top:48%;
+		// 	margin:0px 40.5%;
+		// }
+	}
+}
+.service{
+	position:absolute;
+	top:50%;
+	right:15px;
+	a{
+		display:block;
+		background-color:#838383;
+		width:40px;
+		height: 40px;
+		border-radius:20px;
+		font-size:12px;
+		text-align:center;
+		color:#e8e8e8;	
+	}
+	a{
+		&:before{
+			content:"";
+			display:block;
+			width:20px;
+			height: 18px;
+			border-radius:10px;
+			background:url(../img/sign.png) -6px -590px no-repeat;
+	     	background-size:100px 750px;
+            // text-align:center;
+		    margin:0px auto;
+		}
+	}
+}

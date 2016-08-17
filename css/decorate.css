@@ -1,0 +1,129 @@
+html,
+body {
+  width: 10.0rem;
+}
+img {
+  display: block;
+  width: 100%;
+}
+.swiper-container {
+  width: 10.0rem;
+  height: 4.21875rem;
+}
+.swiper-container .swiper-pagination .swiper-pagination-bullet {
+  width: 0.46875rem;
+  height: 0.46875rem;
+}
+.function li {
+  float: left;
+  width: 2.5rem;
+  text-align: center;
+}
+.function li a {
+  width: 100%;
+  display: inline-block;
+  color: black;
+  font-size: 0.3325rem;
+  padding: 0.3125rem 0;
+  border: 1px #f8f8f8 solid;
+}
+.function li a:before {
+  content: "";
+  display: block;
+  margin: 0 auto 0.15625rem;
+  width: 1.155rem;
+  height: 1.155rem;
+  background: url(../img/sign.png) 0px -0.046875rem no-repeat;
+  background-size: 3.125rem 18.75rem;
+}
+.function li:nth-child(2) a:before {
+  background-position: 0px -1.5625rem;
+}
+.function li:nth-child(3) a:before {
+  background-position: 0px -3.046875rem;
+}
+.function li:nth-child(4) a:before {
+  background-position: 0px -4.5rem;
+}
+.function li:nth-child(5) a:before {
+  background-position: 0px -6.171875rem;
+}
+.function li:nth-child(6) a:before {
+  background-position: 0px -7.828125rem;
+}
+.function li:nth-child(7) a:before {
+  background-position: 0px -9.390625rem;
+}
+.function li:nth-child(8) a:before {
+  background-position: 0px -10.828125rem;
+}
+section {
+  background-color: #f8f8f8;
+}
+section p {
+  font-size: 0.46875rem;
+  font-weight: bolder;
+  height: 1.203125rem;
+  line-height: 1.203125rem;
+  padding-left: 0.4125rem;
+}
+section .effect {
+  background-color: white;
+  padding: 0.3125rem 0.3125rem 0.46875rem 0.3125rem;
+}
+section .effect img:nth-child(1) {
+  height: 6.5625rem;
+  width: 9.375rem;
+}
+section .effect img:nth-child(2) {
+  width: 4.53125rem;
+  height: 3.125rem;
+  float: left;
+  margin-right: 0.3125rem;
+  margin-top: 0.15625rem;
+}
+section .effect img:nth-child(3) {
+  width: 4.53125rem;
+  height: 3.125rem;
+  float: left;
+  margin-top: 0.15625rem;
+}
+section .effect ul {
+  width: 9.375rem;
+}
+section .effect .form {
+  border-bottom: 1px #f8f8f8 dashed;
+  margin-top: 0.15625rem;
+}
+section .effect .form,
+section .effect .type {
+  padding: 0.15625rem 0px 0.15625rem 0.0rem;
+}
+section .effect .form li,
+section .effect .type li {
+  float: left;
+}
+section .effect .form li a,
+section .effect .type li a {
+  display: block;
+  width: 1.640625rem;
+  height: 0.546875rem;
+  background-color: #f8f8f8;
+  font-size: 0.28125rem;
+  line-height: 0.546875rem;
+  text-align: center;
+  color: black;
+  border-radius: 0.109375rem;
+}
+section .effect .form li:not( :nth-child(1)),
+section .effect .type li:not( :nth-child(1)) {
+  margin-left: 0.292969rem;
+}
+section .effect .form li:nth-child(1) a,
+section .effect .type li:nth-child(1) a {
+  color: white;
+  background-color: #ffc508;
+  box-sizing: border-box;
+  border-right: 0.226562rem solid #ffc508;
+  border-left: 0.226562rem solid white;
+}
